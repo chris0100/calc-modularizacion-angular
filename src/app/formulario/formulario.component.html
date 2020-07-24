@@ -1,0 +1,26 @@
+<form>
+
+  <label>Operando A</label>
+  <input
+    type="number"
+    class="form-control"
+    name="operA"
+    [(ngModel)]="operA"
+  >
+
+  <label>Operando B</label>
+  <input
+    type="number"
+    class="form-control"
+    name="operB"
+    [(ngModel)]="operB"
+  >
+
+  <button class="btn btn-primary"
+          type="submit"
+          (click)="onSumar()"
+  >Sumar
+  </button>
+
+
+</form>

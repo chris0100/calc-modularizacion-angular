@@ -1,0 +1,6 @@
+<p *ngIf="operacionRealizada; else sinOperacion">Resultado: {{resultado}}</p>
+
+<!--Si no se cumple el if ejecuta el bloque de sinOperacion-->
+<ng-template #sinOperacion>
+  <p>Esperando que ingreses valores para operar</p>
+</ng-template>
